@@ -1,0 +1,82 @@
+.titlePurchase {
+    color: #242364;
+    text-align: center;
+}
+
+.card-header {
+    background: rgba(200, 187, 245, 0.6) !important;
+}
+
+.card {
+    margin-top: 2%;
+}
+
+.card-body {
+    color: rgb(41, 40, 40) !important;
+    text-align: center;
+}
+
+.card-body span {
+    color: #2a0b38;
+}
+
+
+/*! Styles of SideBarCard */
+.productName {
+    text-decoration: none !important;
+    color: #242364;
+}
+
+.cartImages {
+    width: 120px;
+    height: 120px;
+    object-fit: scale-down;
+}
+
+.classBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 6%;
+    font-size: 18px;
+}
+
+.dangerBtn {
+    color: white;
+    border: none;
+    background: rgb(237, 76, 76);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.dangerBtn:hover,
+.updateBtn:hover {
+    background: rgb(211, 61, 61);
+}
+
+.totalCheckout {
+    text-align: right;
+    font-size: 26px;
+}
+
+.totalCheckout b {
+    color: rgb(124, 20, 20);
+}
+
+.btnCheck {
+    border: none;
+    background: #33028e;
+    color: beige;
+    border-radius: 15px;
+}
+
+.btnCheck:hover {
+    background: #3e02ae;
+}
+
+.alertEmpty {
+    color: red;
+    font-weight: 700;
+    font-size: 1.6rem;
+}

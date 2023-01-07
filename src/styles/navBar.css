@@ -1,0 +1,66 @@
+/*
+.p-fixed {
+    background: #f6f5f7;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    margin-left: 10%;
+    margin-top: 1.5%;
+}*/
+
+.btnShop {
+    display: flex;
+}
+
+.btnShop button {
+    margin-left: 20px;
+}
+
+.btn-light {
+    border: solid 1px #c3c3c3c3;
+    width: 60px;
+    height: 46px;
+    padding: 0 20px;
+    font-size: 20px !important;
+    color: #3e02ae !important;
+    border: solid 1px #3e02ae !important;
+}
+
+.btn-light:hover {
+    background: white !important;
+}
+
+#button-addon2 {
+    background: #CFC1D9;
+}
+
+#button-addon2:hover {
+    background: #3e02ae;
+    color: #CEC1D5 !important;
+}
+
+.InputSearch {
+    width: 550px !important;
+}
+
+.btn-outline {
+    background: c !important;
+    color: #3e02ae !important;
+}
+
+.btnShopping {
+    width: 90px;
+    height: 45px;
+    border: none;
+    background: #CEC1D5;
+    color: #3e02ae;
+    border-radius: 10px;
+}
+
+.linkNav .nav1 {
+    color: #04218b !important;
+}
+
+.linkNav:hover {
+    color: #6c468a !important;
+}

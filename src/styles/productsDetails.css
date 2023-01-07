@@ -1,0 +1,89 @@
+.imageCarousel {
+    /*width: 450px !important;*/
+    height: 250px !important;
+}
+
+
+.imageCarousel img {
+    object-fit: scale-down;
+    height: 100%;
+    height: contain;
+}
+
+.carousel-dark .carousel-control-next-icon {
+    color: rgb(141, 31, 31) !important;
+}
+
+/*! Container details of products */
+.titleProductDetails {
+    color: #04218b;
+}
+
+.paragraphDetails {
+    color: rgb(110, 109, 109);
+}
+
+.containerPriceQuantity {
+    display: flex;
+}
+
+.containerPrice {
+    width: 35%;
+    text-align: center;
+    margin: auto;
+}
+
+.textPrice {
+    margin: auto;
+    font-size: 22.5px;
+}
+
+.textPrice>b {
+    color: rgb(141, 31, 31);
+}
+
+.rate {
+    /*background: gold;*/
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.rate button {
+    font-weight: 700;
+    background: transparent;
+    border-radius: 8px;
+    border: none;
+}
+
+.rate {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+}
+
+.rate button {
+    border: none;
+    width: 20%;
+    height: 60%;
+    background: transparent;
+    border-radius: 8px;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgba(15, 33, 170, 0.9);
+}
+
+.rate i:hover {
+    color: #c3c3c3;
+}
+
+.btnCheckOut button {
+    background: rgba(15, 33, 170, 0.9);
+    border: white 2px solid;
+    color: white;
+    border-radius: 5px;
+}
+
+.btnCheckOut button:hover {
+    background: rgba(15, 33, 170, 0.9);
+}
